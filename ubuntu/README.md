@@ -13,6 +13,7 @@
   - Make `guake` auto start in `Startup Applications`
   - Modify shortcuts:
     - Toggle Guake visibility - `Ctrl + Space`
+- Modify the `nautilus` sidebar ([how](https://askubuntu.com/questions/79150/how-to-remove-bookmarks-from-the-nautilus-sidebar))
 
 ## Development
 
