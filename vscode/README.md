@@ -9,7 +9,10 @@
         120
     ],
     "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "One Dark Pro"
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120
 }
 ```
 
