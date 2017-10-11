@@ -12,7 +12,8 @@
     "vsicons.dontShowNewVersionMessage": true,
     "workbench.colorTheme": "One Dark Pro",
     "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 120
+    "editor.wordWrapColumn": 120,
+    "eslint.autoFixOnSave": true
 }
 ```
 
