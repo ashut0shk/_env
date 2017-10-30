@@ -13,7 +13,9 @@
   "editor.formatOnSave": true,
   "vsicons.dontShowNewVersionMessage": true,
   "eslint.autoFixOnSave": true,
-  "prettier.eslintIntegration": true
+  "prettier.eslintIntegration": true,
+  "workbench.startupEditor": "none",
+  "editor.snippetSuggestions": "top"
 }
 ```
 
@@ -46,6 +48,11 @@
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) - markdown linting/errors info
 - [Reactjs code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets) - PropTypes & other shortcuts
 - [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components) - styled-components css syntax highlight
+
+## Snippets
+
+- `snippets.javascript.json`:
+  - `log` - console.log
 
 ### EditorConfig
 
