@@ -4,21 +4,22 @@
 
 ```json
 {
-    "editor.tabSize": 2,
-    "editor.rulers": [
-        120
-    ],
-    "workbench.iconTheme": "vscode-icons",
-    "vsicons.dontShowNewVersionMessage": true,
-    "workbench.colorTheme": "One Dark Pro",
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 120
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.tabSize": 2,
+  "editor.rulers": [120],
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
+  "editor.formatOnSave": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "eslint.autoFixOnSave": true,
+  "prettier.eslintIntegration": true
 }
 ```
 
-## Keybord Shortcuts
+## Keybord Shortcuts (Ubuntu)
 
-| `keybindings.json`
+| `keybindings.ubuntu.json`
 
 | key | description | command |
 |-----|-------------|---------|
