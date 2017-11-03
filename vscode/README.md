@@ -15,7 +15,8 @@
   "eslint.autoFixOnSave": true,
   "prettier.eslintIntegration": true,
   "workbench.startupEditor": "none",
-  "editor.snippetSuggestions": "top"
+  "editor.snippetSuggestions": "top",
+  "editor.tabCompletion": true
 }
 ```
 
