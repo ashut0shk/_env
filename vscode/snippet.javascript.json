@@ -1,7 +1,22 @@
 {
-  "Print to console": {
+  "console.log": {
     "prefix": "log",
-    "body": ["console.log($1);"],
-    "description": "Log output to console"
+    "body": ["console.log($1)"]
+  },
+  "const assignment": {
+    "prefix": "c=",
+    "body": ["const ${1:name} = ${2:value}"]
+  },
+  "let assignment": {
+    "prefix": "l=",
+    "body": ["let ${1:name} = ${2:value}"]
+  },
+  "array forEach": {
+    "prefix": "for",
+    "body": ["forEach(item => $1)"]
+  },
+  "array find": {
+    "prefix": "fin",
+    "body": ["find(item => $1)"]
   }
 }
