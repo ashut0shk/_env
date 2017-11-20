@@ -1,34 +1,34 @@
 {
   "console.log": {
     "prefix": "log",
-    "body": ["console.log($1);"]
+    "body": ["console.log($1)"]
   },
   "const assignment": {
     "prefix": "c=",
-    "body": ["const ${1:name} = ${2:value};"]
+    "body": ["const ${1:name} = ${2:value}"]
   },
   "let assignment": {
     "prefix": "l=",
-    "body": ["let ${1:name} = ${2:value};"]
+    "body": ["let ${1:name} = ${2:value}"]
   },
   "array forEach": {
     "prefix": "for",
-    "body": ["forEach(item => $1);"]
+    "body": ["forEach(item => $1)"]
   },
   "array map": {
     "prefix": "map",
-    "body": ["map(item => $1);"]
+    "body": ["map(item => $1)"]
   },
   "array find": {
     "prefix": "fin",
-    "body": ["find(item => $1);"]
+    "body": ["find(item => $1)"]
   },
   "propTypes": {
     "prefix": "propt",
-    "body": ["propTypes = {\n  $1\n};"]
+    "body": ["propTypes = {\n  $1\n}"]
   },
   "defaultProps": {
     "prefix": "defp",
-    "body": ["defaultProps = {\n  $1\n};"]
+    "body": ["defaultProps = {\n  $1\n}"]
   }
 }
