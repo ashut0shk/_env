@@ -16,7 +16,9 @@
   "prettier.eslintIntegration": true,
   "workbench.startupEditor": "none",
   "editor.snippetSuggestions": "top",
-  "editor.tabCompletion": true
+  "editor.tabCompletion": true,
+  "editor.fontFamily": "Fira Code", // https://github.com/tonsky/FiraCode
+  "editor.fontLigatures": true
 }
 ```
 
